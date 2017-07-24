@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+
+
+#box1 {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../image/res-me-.png");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+  
+}  
+
+.text-center1{
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+  padding: 10px;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+
+.container {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #fffff;
+  color: #000000;
+  box-sizing: border-box;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  flex: 1;
+  margin: 10px 10px 30px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  
+  
+}
+.text-center2 {
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffff00
+}
+
+.passage{
+  background-color: #858585;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0px;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#box3 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #000000;
+}
+
+#bottom {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+
+#pic {
+  display: block;
+  margin: 0px auto;
+  height: 28px;
+  width: 117px;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  background-color: #ffff00;
+  color: #000000;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+  #box1{
+      margin: 0px;
+      padding: 0px;
+      background-image: url("../image/res-me-.png");
+      height: 250px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+  }
+  .container {
+    flex-direction: column;
+  }
+  
+}
